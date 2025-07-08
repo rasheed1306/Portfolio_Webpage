@@ -16,15 +16,17 @@ Welcome to my personal portfolio! This website showcases my professional journey
 
 ## 🛠️ Technologies Used  
 - **Frontend:**  
-  -[HTML5]
-  -[CSS3]
-  -[JavaScript]
+  - [HTML5]
+  - [CSS3]
+  - [JavaScript]
 
 ---
 
 ## 📂 Project Structure  
 portfolio/
-├── index.html          # Main page
+├── index.html
 ├── styles/
-│   └── app.css        # Primary styles
-└── images/             # Images/icons
+│   └── main.css      
+└── assets/           
+    ├── images/       
+    └── fonts/        
