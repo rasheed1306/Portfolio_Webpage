@@ -5,8 +5,7 @@ html {
 
 h1 {
     font-weight: bold;
-    line-height: 1.5em;
-    letter-spacing: 1.5;
+    line-height: 2em;
     font-size: 2.5em;
 }
 
@@ -18,7 +17,7 @@ h2 {
 
 h3 {
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 1.5em;
 }
 
@@ -31,6 +30,7 @@ span {
 .navbar {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+    display: 20vh;
 }
 
 .navbar .nav-link:nth-of-type(1) {
@@ -49,9 +49,8 @@ span {
 .navbar .contactMe {
     border: 0.3rem solid #212529;
     margin-left: 40rem;
-    padding: 10px 15px;
+    padding: 0.6em calc(0.6em*1.5);
     border-radius: 10px;
-
 }
 
 .navbar .nav-link:hover {
@@ -70,14 +69,15 @@ span {
 }
 
 .imageContainer {
+    margin-top: 1em;
     display: flex;
     justify-content: center;
-    height: 400px;
+
 }
 
 .profilePic {
-    width: 400px;
-    height: 400px;
+    height: 25em;
+    width: 25em;
     border-radius: 50%;
     object-fit: cover;
     border: 0.5rem solid #212529;
@@ -90,23 +90,23 @@ span {
 }
 
 .descriptionContainer {
-    height: 400px;
-    margin: 10px 0px 0px;
-    padding: 56px 100px 56px 100px;
+    height: 25em;
+    margin: 1em 0 0;
+    padding: 4em 8em;
     display: flex;
     justify-content: center;
 }
 
 /* Featured Work Customisation */
-.featureWork {
+.featured-work {
     padding: 5rem;
     margin-bottom: 50px;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background-color: rgba(17, 24, 39, 1);
 }
 
-.featureWorkHeading {
+.featured-work header {
     color: white;
     text-align: center;
     width: 100%;
@@ -118,12 +118,12 @@ span {
 
 }
 
-.featureWorkProjects {
+.featured-row {
     display: flex;
     gap: 15rem;
 }
 
-.workProject {
+.featured-card {
     color: white;
     flex: 1;
     border: 1px solid white;
@@ -131,14 +131,15 @@ span {
     text-align: center;
 }
 
-.workProject .feature-project-pic img {
+.featured-card .featured-card-pic img {
     width: 100%;
     height: 70%;
 }
 
-
+/* myProjects customisation */
 .myProjects {
     padding: 56px 100px;
+    display: 80vh;
 }
 
 .myProjects .projects-grid {
