@@ -7,13 +7,15 @@
     <title>rasheedmohammed.io</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <link href="main.css" rel="stylesheet">
+    <link rel="stylesheet" href="app1.css">
+    <link href="app.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#expandMe"
@@ -33,7 +35,7 @@
     <!-- my overview section -->
     <section>
         <div class="imageContainer">
-            <img src="assets\picture.jpg" alt="Image of myself" class="profilePic">
+            <img src="images\picture.jpg" alt="Image of myself" class="profilePic">
         </div>
         <div class="descriptionContainer">
             <h1>Hi, I'm <span>Rasheed Mohammed</span>. Here you can check out my best personal/professional
@@ -47,13 +49,26 @@
             <h1 class="featureWorkHeading">Featured Work</h1>
             <div class="featureWorkProjects">
                 <article class="workProject">
+                    <div class="feature-project-pic">
+                        <img src="images\donkey_kong_2_pic.png" alt="Picture of Project">
+                    </div>
                     <h1>Project 1</h1>
+                    <h2>Donkey Kong with Weapons!</h2>
                 </article>
                 <div class="workProject">
-                    <h1>Project 1</h1>
+                    <div class="feature-project-pic">
+                        <img src="images\donkey_kong_2_pic.png" alt="Picture of Project">
+                    </div>
+                    <h1>Project 2</h1>
+                    <h2>Donkey Kong with Weapons!</h2>
+
                 </div>
                 <article class="workProject">
-                    <h1>Project 1</h1>
+                    <div class="feature-project-pic">
+                        <img src="images\donkey_kong_2_pic.png" alt="Picture of Project">
+                    </div>
+                    <h1>Project 3</h1>
+                    <h2>Donkey Kong with Weapons!</h2>
                 </article>
             </div>
         </div>
@@ -69,21 +84,27 @@
         </header>
 
         <div class="projects-grid">
-            <div class="project-row1">
+            <div class="project-row">
                 <article class="project-card">
+                    <img src="images\donkeyKong2 icon.svg" alt="Project icon" class="project-card-icon">
                     <h1>Donkey Kong</h1>
                 </article>
                 <article class="project-card">
+                    <img src="images\donkeyKong2 icon.svg" alt="Project icon" class="project-card-icon">
                     <h1>Donkey Kong 2</h1>
                 </article>
                 <article class="project-card">
+                    <img src="images\donkeyKong2 icon.svg" alt="Project icon" class="project-card-icon">
                     <h1>My Favourite Recipes</h1>
                 </article>
             </div>
-            <div class="project-row2">
+            <div class="project-row">
                 <article class="project-card">
+                    <img src="images\donkeyKong2 icon.svg" alt="Project icon" class="project-card-icon">
                     <h1>Analysing High Risk Vehicles</h1>
                 </article>
+                <article class="project-card empty"></article>
+                <article class="project-card empty"></article>
             </div>
         </div>
     </section>
@@ -91,10 +112,11 @@
     <!-- About Me Section -->
     <section class="extras">
         <header>
-            <h1>Who am I?</h1>
+            <h1>Extras</h1>
+            <h2>Who am I?</h2>
             <p>I am a 19-year-old University of Melbourne student studying Computer Science, hoping to graduate by 2027.
             </p>
-            <h1>What are your hobbies? </h1>
+            <h2>What are your hobbies? </h2>
             <p>I love going on hikes and camping outside. </p>
         </header>
     </section>
@@ -105,10 +127,15 @@
             <h1>Contact Me</h1>
         </header>
         <div class="media-grid">
-            <div class="media-row1">
-                <article><a href="#">LINKEDIN</a></article>
-                <article><a href="#">GITHUB</a></article>
-                <article><a href="#">INSTAGRAM</a></article>
+            <div class="media-row">
+                <article>
+                    <a href="#"> <img src="images\linkedin-brands.svg" alt="LinkedIn Image" class="media-card-img">
+                    </a>
+                </article>
+                <article><a href="#"> <img src="images\linkedin-brands.svg" alt="LinkedIn Image" class="media-card-img">
+                    </a></article>
+                <article><a href="#"> <img src="images\linkedin-brands.svg" alt="LinkedIn Image" class="media-card-img">
+                    </a></article>
             </div>
         </div>
     </section>
