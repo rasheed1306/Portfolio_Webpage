@@ -23,6 +23,7 @@ Welcome to my personal portfolio! This website showcases my professional journey
 ---
 
 ## 📂 Project Structure  
+```
 portfolio/
 ├── index.html
 ├── styles/
