@@ -230,3 +230,7 @@ article:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 24px #00c49a;
 }
+
+.empty {
+    border: none;
+}
