@@ -17,8 +17,14 @@ h2 {
 
 h3 {
     font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
+h4 {
+    font-weight: bold;
     font-size: 1.2em;
-    line-height: 1.5em;
+    line-height: 1.5;
 }
 
 span {
@@ -151,6 +157,11 @@ span {
     display: 80vh;
 }
 
+.myProjects header h3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 .projects-grid {
     display: flex;
     flex-direction: column;
@@ -172,12 +183,13 @@ span {
 }
 
 .project-card-icon {
-    height: 3em;
+    height: 4rem;
     width: 100%;
     place-items: center;
+    padding-bottom: 1rem;
 }
 
-.project-card h1 {
+.project-card h2 {
     text-align: center;
 }
 
