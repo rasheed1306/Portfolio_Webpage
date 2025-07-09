@@ -1,6 +1,7 @@
 /* Font customisation */
 html {
     font-family: 'Open Sans', Sans-serif;
+    scroll-behavior: smooth;
 }
 
 h1 {
