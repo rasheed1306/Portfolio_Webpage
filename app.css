@@ -197,6 +197,15 @@ span {
     padding: 56px 100px;
 }
 
+/* .extras header h1 {
+    margin-bottom: 2rem;
+} */
+
+.extras .container {
+    margin: 2rem 0 2rem 0;
+    padding: 0 0 0 0;
+}
+
 .contactMe {
     padding: 56px 100px;
 }
