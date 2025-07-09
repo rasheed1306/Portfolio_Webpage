@@ -5,7 +5,7 @@ html {
 
 h1 {
     font-weight: bold;
-    line-height: 2em;
+    line-height: 1.5em;
     font-size: 2.5em;
 }
 
@@ -30,7 +30,6 @@ span {
 .navbar {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    display: 20vh;
 }
 
 .navbar .nav-link:nth-of-type(1) {
@@ -49,7 +48,7 @@ span {
 .navbar .contactMe {
     border: 0.3rem solid #212529;
     margin-left: 40rem;
-    padding: 0.6em calc(0.6em*1.5);
+    padding: 10px 15px;
     border-radius: 10px;
 }
 
@@ -69,15 +68,15 @@ span {
 }
 
 .imageContainer {
-    margin-top: 1em;
+    /* margin-top: 1em; */
     display: flex;
     justify-content: center;
 
 }
 
 .profilePic {
-    height: 25em;
-    width: 25em;
+    height: 400px;
+    width: 400px;
     border-radius: 50%;
     object-fit: cover;
     border: 0.5rem solid #212529;
@@ -90,9 +89,9 @@ span {
 }
 
 .descriptionContainer {
-    height: 25em;
-    margin: 1em 0 0;
-    padding: 4em 8em;
+    height: 400px;
+    margin: 10px 0 0;
+    padding: 56px 100px;
     display: flex;
     justify-content: center;
 }
@@ -102,7 +101,7 @@ span {
     padding: 5rem;
     margin-bottom: 50px;
     width: 100%;
-    height: 90vh;
+    height: auto;
     background-color: rgba(17, 24, 39, 1);
 }
 
@@ -120,7 +119,8 @@ span {
 
 .featured-row {
     display: flex;
-    gap: 15rem;
+    gap: 12rem;
+    width: 100%;
 }
 
 .featured-card {
@@ -131,9 +131,18 @@ span {
     text-align: center;
 }
 
+.featured-card-pic {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
 .featured-card .featured-card-pic img {
     width: 100%;
-    height: 70%;
+    height: 100%;
+    object-fit: fill;
 }
 
 /* myProjects customisation */
@@ -142,22 +151,20 @@ span {
     display: 80vh;
 }
 
-.myProjects .projects-grid {
+.projects-grid {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
 }
 
-.myProjects .project-row {
+.project-row {
     display: flex;
     flex-direction: row;
-    height: 12em;
+    height: 200px;
     gap: 5rem;
 }
 
-
-
-.projects-grid .project-row .project-card {
+.project-card {
     flex: 1;
     padding: 1rem;
     border: 3px solid #212529;
@@ -187,7 +194,6 @@ span {
     gap: 3rem;
     justify-content: center;
     padding: 56px 300px;
-    padding:
 }
 
 .media-row article {

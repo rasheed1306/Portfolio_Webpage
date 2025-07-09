@@ -133,34 +133,3 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
-
-/* Font customisation */
-html {
-    font-family: 'Open Sans', Sans-serif;
-    box-sizing: border-box;
-}
-
-
-
-h1 {
-    font-weight: bold;
-    line-height: 1.5em;
-    font-size: 2em;
-}
-
-h2 {
-    font-weight: bold;
-    line-height: 1.5em;
-    font-size: 1.75em;
-}
-
-p {
-    font-weight: bold;
-    font-size: 1.5em;
-    line-height: 1.5em;
-}
-
-span {
-    color: #00c49a;
-}
